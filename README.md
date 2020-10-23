@@ -6,7 +6,7 @@ My name is <b> Avijit Karmaker</b>, I live in the finland. I am currently workin
 
 ## Programming Skills
 <div>
-<img src="images/html5.svg"  title="HTML" height=40>
+<img src="images/html5.svg"  title="HTML" height=40 style="color:red, margin-right:10px">
 <img src="images/css3.svg" title="Css" height=40>
 <img src="images/bootstrap.svg" title="Bootstrap" height=40>
 <img src="images/sass.svg" title="Sass" height=40>
