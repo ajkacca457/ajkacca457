@@ -36,7 +36,8 @@ My name is <b> Avijit Karmaker</b>, I live in the finland. I am currently workin
 
 
 ## You can reach me at:
-
+<p>
  [![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/avijit-karmaker-8738a54a/)
 
  [![TWITTER](https://img.shields.io/badge/-TWITTER-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/ajkacca)
+</p>
