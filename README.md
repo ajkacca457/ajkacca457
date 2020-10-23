@@ -6,7 +6,7 @@ My name is <b> Avijit Karmaker</b>, I live in the finland. I am currently workin
 
 ## Programming Skills
 <div>
-<img src="images/html5.svg"  title="HTML" height=40 style="color:red, margin-right:10px">
+<img src="images/html5.svg"  title="HTML" height=40>
 <img src="images/css3.svg" title="Css" height=40>
 <img src="images/bootstrap.svg" title="Bootstrap" height=40>
 <img src="images/sass.svg" title="Sass" height=40>
@@ -20,6 +20,15 @@ My name is <b> Avijit Karmaker</b>, I live in the finland. I am currently workin
 <img src="images/git.svg" title="git" height=40>
 <img src="images/github.svg" title="github" height=40>
 <img src="images/rubygems.svg" title="rubygems" height=40>
+</div>
+
+## Graphics Skills
+<div>
+<img src="images/adobephotoshop.svg"  title="photoshop" height=40>
+<img src="images/adobeillustrator.svg" title="illustrator" height=40>
+<img src="images/adobeaftereffects.svg" title="after effect" height=40>
+<img src="images/adobepremierepro.svg" title="premiere pro" height=40>
+<img src="images/sketch.svg" title="sketch" height=40>
 </div>
 
 ## My Stats
