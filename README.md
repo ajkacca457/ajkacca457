@@ -8,4 +8,4 @@ My name is <b> Avijit Karmaker</b>, I live in the finland. I am currently workin
 
 ==================================================
 
- <img src="https://github-readme-stats.vercel.app/api?username=ajkacca457&count_private=true&show_icons=true&theme=radical&icon_color=E11C68&title_color=FFF">
+ <img src="https://github-readme-stats.vercel.app/api?username=ajkacca457&count_private=true&show_icons=true&theme=dracula">
