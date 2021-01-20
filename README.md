@@ -2,7 +2,8 @@
 
 <img src="images/ngu-1.jpg">
 
-My name is <b> Avijit Karmaker</b>, I live in the Finland. I am currently working on being the best web developer that I can be. Here you will find my repositories, which includes many collaborative projects and my 'solo projects'. I regularly upload all the projects that I work on.  
+My name is <b> Avijit Karmaker</b>. I live in Finland. I am currently working on being the best web developer that I can be. Here you will find my repositories, which include many collaborative projects and my 'solo projects'. I regularly upload all the projects that I build.
+
 
 ## Programming Skills
 <div>
