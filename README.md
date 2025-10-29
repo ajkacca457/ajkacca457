@@ -5,7 +5,7 @@ const informationCenter = {
     name: "Avi",
     workingAt:"JJ-NET OY",
     location: "Vantaa, Finland" 
-    hobbies: ["Coding", "Swimming", "Archery", "Exercise"],
+    hobbies: ["Coding", "kickboxing", "BJJ", "Swimming", "Archery", "Exercise"],
     motto: "Keep trying until you succeed."
     bio: function() {
         console.log(`Hi there! My name is Avi, a passionate coder and lifelong learner.`);
