@@ -2,7 +2,13 @@
 
 ```javascript
 class InformationCenter {
-    constructor({ name, workingAt, location, hobbies, motto }) {
+    constructor({
+        name,
+        workingAt,
+        location,
+        hobbies,
+        motto
+    }) {
         this.name = name;
         this.workingAt = workingAt;
         this.location = location;
@@ -11,12 +17,17 @@ class InformationCenter {
     }
 
     bio() {
-        return `
-Hi there! My name is ${this.name}, a passionate coder and lifelong learner.
-I enjoy mastering new technologies and exploring creative solutions.
-When I'm not coding, you can find me indulging in my hobbies.
-Motto: "${this.motto}"
-        `.trim();
+        console.log(`Hi there! My name is ${this.name}, a passionate coder and lifelong learner.`);
+        console.log(`I work at ${this.workingAt} and I’m based in ${this.location}.`);
+        console.log(`I enjoy mastering new technologies and exploring creative solutions.`);
+
+        console.log(`My hobbies include:`);
+        this.hobbies.forEach(hobby => {
+            console.log(`- ${hobby}`);
+        });
+
+        console.log(`Motto: "${this.motto}"`);
+        console.log(`Feel free to connect with me and let's collaborate on some exciting projects!`);
     }
 }
 
@@ -24,11 +35,18 @@ const avi = new InformationCenter({
     name: "Avi",
     workingAt: "JJ-NET OY",
     location: "Vantaa, Finland",
-    hobbies: ["Coding", "Kickboxing", "BJJ", "Swimming", "Archery", "Exercise"],
+    hobbies: [
+        "Coding",
+        "Kickboxing",
+        "BJJ",
+        "Swimming",
+        "Archery",
+        "Exercise"
+    ],
     motto: "Keep trying until you succeed."
 });
 
-console.log(avi.bio());
+avi.bio();
 ```
 
 #### MY STACKS:
