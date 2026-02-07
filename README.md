@@ -1,20 +1,34 @@
 ### Welcome, Fellow Coders! 💻
 
 ```javascript
-const informationCenter = {
-    name: "Avi",
-    workingAt:"JJ-NET OY",
-    location: "Vantaa, Finland" 
-    hobbies: ["Coding", "kickboxing", "BJJ", "Swimming", "Archery", "Exercise"],
-    motto: "Keep trying until you succeed."
-    bio: function() {
-        console.log(`Hi there! My name is Avi, a passionate coder and lifelong learner.`);
-        console.log(`I enjoy mastering new technologies and exploring creative solutions.`);
-        console.log(`When I'm not coding, you can find me indulging in my hobbies.`);
-        console.log(`Feel free to connect with me and let's collaborate on some exciting projects!`);
+class InformationCenter {
+    constructor({ name, workingAt, location, hobbies, motto }) {
+        this.name = name;
+        this.workingAt = workingAt;
+        this.location = location;
+        this.hobbies = hobbies;
+        this.motto = motto;
     }
-};
 
+    bio() {
+        return `
+Hi there! My name is ${this.name}, a passionate coder and lifelong learner.
+I enjoy mastering new technologies and exploring creative solutions.
+When I'm not coding, you can find me indulging in my hobbies.
+Motto: "${this.motto}"
+        `.trim();
+    }
+}
+
+const avi = new InformationCenter({
+    name: "Avi",
+    workingAt: "JJ-NET OY",
+    location: "Vantaa, Finland",
+    hobbies: ["Coding", "Kickboxing", "BJJ", "Swimming", "Archery", "Exercise"],
+    motto: "Keep trying until you succeed."
+});
+
+console.log(avi.bio());
 ```
 
 #### MY STACKS:
